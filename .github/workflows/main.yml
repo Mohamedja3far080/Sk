@@ -1,4 +1,4 @@
-name: amazonRDP
+name: shexa
 
 on: workflow_dispatch
 
@@ -6,7 +6,7 @@ jobs:
   build:
 
     runs-on: windows-latest
-    timeout-minutes: 9999
+    timeout-minutes: 999
 
     steps:
     - name: Downloading Ngrok.
